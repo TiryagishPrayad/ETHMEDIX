@@ -1,11 +1,11 @@
 
 
-```
-# Ethmedix - Health Record Management System
+
+ Ethmedix - Health Record Management System
 
 Ethmedix is a decentralized Health Record Management System that allows users to upload and manage health records securely on the Ethereum blockchain. It provides an interface for uploading, accessing, and sharing health records with authorized parties, including hospitals and doctors.
 
-## Features
+Features
 
 - Upload health records in various formats such as PDFs and images.
 - Store health records securely on the Ethereum blockchain using smart contracts.
@@ -13,28 +13,28 @@ Ethmedix is a decentralized Health Record Management System that allows users to
 - Display health records in a grid view for easy browsing.
 - Share health records with hospitals and doctors for collaboration and consultation.
 
-## Technologies Used
+ Technologies Used
 
 - React.js: Front-end JavaScript library for building user interfaces.
 - Ethereum: Blockchain platform for storing health records using smart contracts.
 - Solidity: Smart contract programming language for Ethereum.
 - Hardhat: Ethereum development environment for building and testing smart contracts.
-- IPFS: Decentralized storage protocol for storing file data.
+- IPFS: Decentralized storage protocol for storing file data through Pinata Cloud
 
-## Getting Started
+ Getting Started
 
 1. Clone the repository:
 
-   ```shell
+  
    git clone https://github.com/your-username/ethmedix.git
-   ```
+   
 
 2. Install dependencies:
 
-   ```shell
+   
    cd ethmedix
    npm install
-   ```
+ 
 
 3. Set up the Ethereum development environment:
    - Install Hardhat globally:
