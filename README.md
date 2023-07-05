@@ -35,25 +35,23 @@ Features
    cd ethmedix
    npm install
  
-
+// installing dependencies is important such that no errors are occured during the execution of the project.
 3. Set up the Ethereum development environment:
    - Install Hardhat globally:
 
-     ```shell
      npm install -g hardhat
-     ```
+    
 
    - Start a local Ethereum network:
 
-     ```shell
+     
      npx hardhat node
-     ```
+     
 
    - Deploy the smart contracts:
 
-     ```shell
      npx hardhat run --network localhost scripts/deploy.js
-     ```
+
 
    - Update the contract address and ABI in the `App.js` file to match your deployed smart contract.
 
