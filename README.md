@@ -7,7 +7,7 @@ Ethmedix is a decentralized Health Record Management System that allows users to
 
 Features
 
-- Upload health records in various formats such as PDFs and images.
+- Upload health records in various formats such as PDFs,images and other formats too .
 - Store health records securely on the Ethereum blockchain using smart contracts.
 - Grant access to health records for authorized users, including hospitals and doctors.
 - Display health records in a grid view for easy browsing.
@@ -19,9 +19,11 @@ Features
 - Ethereum: Blockchain platform for storing health records using smart contracts.
 - Solidity: Smart contract programming language for Ethereum.
 - Hardhat: Ethereum development environment for building and testing smart contracts.
-- IPFS: Decentralized storage protocol for storing file data through Pinata Cloud
+- Pinata: It is a decentralised storage used for pinning files to IPFS.
 
- Getting Started
+
+Getting  Started
+
 
 1. Clone the repository:
 
