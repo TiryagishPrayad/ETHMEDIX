@@ -1,4 +1,4 @@
-#Apologies for the confusion. If you don't want to include the functionality to revoke access to health records, you can modify the README.md file accordingly:
+
 
 ```
 # Ethmedix - Health Record Management System
