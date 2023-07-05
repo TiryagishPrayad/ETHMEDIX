@@ -35,7 +35,10 @@ Features
    cd ethmedix
    npm install
  
-// installing dependencies is important such that no errors are occured during the execution of the project.
+// installing dependencies is important such that no errors are occured during the execution of the project..
+
+
+
 3. Set up the Ethereum development environment:
    - Install Hardhat globally:
 
