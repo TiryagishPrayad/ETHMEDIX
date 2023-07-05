@@ -1,0 +1,133 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #c33192, #00fff3);
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  gap: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer img {
+  height: 40px;
+  width: 40px;
+  animation: rotateLogo 2s linear infinite;
+}
+
+.logoText {
+  margin-left: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdownToggle {
+  cursor: pointer;
+}
+
+.dropdownContent {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.accountText {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.copySuccessMessage {
+  margin-bottom: 5px;
+  color: green;
+}
+
+.dropdownLink {
+  color: #000;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.dropdownLink:hover {
+  text-decoration: underline;
+}
+
+
+/* .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #c33192, #00fff3);
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    gap: 10px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally center the text */
+  /* align-items: cente
+  }
+  
+  .logoContainer img {
+    height: 40px;
+    width: 40px;
+    animation: rotateLogo 2s linear infinite;
+  }
+  
+  .logoText {
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    align-items: center;
+  }
+  
+  .headerItem {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    animation: fadeIn 1s ease-in-out;
+    margin-right: 25px;
+  }
+  
+  .headerItem:hover {
+    color: #c8cacd;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .headerItem:first-child {
+    margin-left: 18px;
+  }
+  
+
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+   */ 
